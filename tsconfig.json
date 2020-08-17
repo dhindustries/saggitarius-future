@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "module": "commonjs",
+        "lib": [
+            "ESNext"
+        ],
+        "target": "es2016",
+        "jsx": "preserve",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "rootDir": "./src"
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*",
+        "dist"
+    ],
+    "references": [
+        {"path": "./node_modules/@saggitarius/deferred"}
+    ]
+}
